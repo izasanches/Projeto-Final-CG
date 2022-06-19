@@ -1,0 +1,43 @@
+
+.footer-mentees {
+    background-color: #F6F6F6;
+    color: #F6F6F6;
+    width: 100%;
+    
+    text-align: center;
+    line-height: 100px;
+    justify-content: flex-end;
+
+    display: flex; /*usando o flex ele se adapta de maneira fixa*/
+    flex-direction: column; /*para a logo e botao ficarem alinhados entre si*/
+    justify-content: center; 
+
+}
+
+
+#imagem-logo-footer {
+    width: 10%;
+    min-width: 120px;
+    text-align: center;
+   
+}
+
+#botao-retornar {
+    font-size: 1rem;
+    font-weight: 550;
+    text-decoration: none;
+    color: white !important;
+    background: #A80359;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 1px 5px 12px gray; /*sombra no botao */
+}
+
+@media screen and (max-width: 800px) {
+
+    #botao-retornar {
+        width: 40%;
+    }
+
+}
+

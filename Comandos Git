@@ -1,0 +1,8 @@
+https://rogerdudler.github.io/git-guide/index.pt_BR
+
+Para iniciar e clonar esse repositório:
+1- Acessar a pasta no seu computador onde irá clonar, abrir o terminar e digitar "git init"
+2- Para clonar: "git clone https://github.com/ingradantona/projeto_final_turma8.git"
+3- Criar a branch "git checkout -b nome_branch"
+4- Após fazer a alteração: "git add ." e "git commit -m "descrição commit""
+5- git push --set-upstream https://github.com/ingradantona/projeto_final_turma8.git nome_branch

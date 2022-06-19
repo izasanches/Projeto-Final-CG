@@ -1,0 +1,166 @@
+.mentoras {
+    background-color: #4F1A46;
+    height: 100%;
+    padding-bottom: 2em;
+}
+
+.mentoras-texto {
+    padding-top: 3em;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 20% 0 20%;
+}
+
+.mentoras-texto h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.mentoras-texto p {
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    text-align: justify;    
+    line-height: 1.4em;
+}
+
+.mentoras-texto hr {
+    height: 3px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.caixa-carrossel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-carrossel {
+    position: relative;
+    display: flex;    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.imagem-mentora {
+    margin-top: -14em;
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 6px solid #FFFFFF;  
+    z-index: 4;
+}
+
+.caixa-texto-mentora {
+    padding-top: 4em;
+    background-color: #F6F6F6;
+    color: #393436;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    width: 28em;
+    height: 19em;
+}
+
+.caixa-texto-mentora h3 {
+    padding: 2em 0 1em 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;    
+}
+
+.caixa-texto-mentora p {
+    padding: 0 5% 5% 5%;
+    text-align: justify;
+    font-size: 0.95em;
+    line-height: 1.4em;
+}
+
+.caixa-texto-mentora h5 {
+    font-size: small;
+    padding-bottom: 1em;
+    font-weight: bold;        
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+main {
+    background-color: #4F1A46;
+}
+
+/* Inicio Footer*/
+.footer-index {
+    background-color: #F6F6F6;
+    position: absolute;     
+    color: #F6F6F6;
+    width: 100%;    
+    text-align: center;
+    line-height: 100px;
+    justify-content: flex-end;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.footer-logo-index {
+    margin: 1em 0 2em 0;
+    height: 120px;    
+}
+
+#imagem-logo-footer-index {
+    width: 8em;
+    text-align: center;   
+}
+
+#botao-retornar-index {
+    font-size: 14px;
+    font-weight: 550;
+    text-decoration: none;
+    color: white;
+    background: #A80359;
+    border-radius: 15px;
+    padding: 15px;    
+    box-shadow: 1px 5px 12px gray; /*sombra no botao */    
+}
+/* Fim Footer*/
+
+@media screen and (max-width: 600px) {
+
+    .mentoras-texto {
+      margin: 0 8% 0 8%;
+    }
+
+    .caixa-texto-mentora p {
+        font-size: 12.5px;
+    }
+
+    .caixa-texto-mentora {
+        width: 350px important!;
+    }
+
+    .caixa-carrossel {
+        width: 75%;
+    }
+
+    .slick-next {
+        right: -25px;
+        /*visibility: hidden;*/
+    }
+
+    .slick-prev {
+        left: -36px;
+        /*visibility: hidden;*/
+    }
+  }

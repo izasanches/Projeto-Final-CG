@@ -1,0 +1,259 @@
+.main-caroussel-mentees{
+  position: relative;
+  margin: 0;
+  padding: 0;
+	font-family: "Open Sans", sans-serif;
+  background-color: #4F1A46;
+  width: 100%;
+  height:800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-mentees{
+  height: 500px;
+  width: 900px;
+  background-color:rgba(246, 246, 246, 0.3);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item{
+  width: 750px;
+  height: 350px;
+}
+
+.display-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.img-mentee{
+  height: 310px;
+  width: 310px;
+  background-color: #F6F6F6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-mentee img {
+  height: 300px;
+  width: 300px;
+}
+
+.carousel-content{
+  width: 400px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-content h2{
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.carousel-content h5{
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.carousel-content p {
+  width: 80%;
+  padding: 15px;
+  text-align: justify;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.mentees-links img {
+  height: 40px;
+  margin: 10px;
+ 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+ position: absolute;
+ top: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+  width: 4rem;
+  height: 4rem;
+  background: 50% / 100% 100% no-repeat; 
+
+}
+
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-caret-left-square-fill" viewBox="0 0 16 16"> <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm10.5 10V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4A.5.5 0 0 0 10.5 12z"/> </svg>');
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16"> <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"/> </svg>'); 
+}
+
+.detalhe-laranja-mentee{
+  position: absolute;
+  left: 20vw;
+  top: 100px;
+  width: 550px;
+  z-index: 3;
+}
+
+.detalhe-circulo-mentee{
+  position: absolute;
+  top: 550px;
+  left: 65vw;
+  width: 180px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 950px) {
+  .main-caroussel-mentees{
+    height:680px;
+  }
+
+  .carousel-mentees{
+    height: 450px;
+    width: 550px;
+  }
+
+  .carousel-item{
+    width: 500px;
+    height: 400px;
+  }
+
+  .display-flex{
+    flex-direction: column;
+  }
+
+  .img-mentee{
+    height: 180px;
+    width: 180px;
+  }
+  .img-mentee img {
+    height: 170px;
+    width: 170px;
+  }
+
+  .carousel-content{
+    width: 400px;
+  }
+
+  .carousel-content h2{
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+
+  .carousel-content h5{
+    line-height: 0.8rem;
+  }
+
+  .carousel-content p {
+    padding: 0px;
+  }
+
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .detalhe-laranja-mentee{
+    left: 5vw;
+    top: 80px;
+    width: 400px;
+  }
+  
+  .detalhe-circulo-mentee{
+    top: 450px;
+    left: 75vw;
+    width: 150px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .main-caroussel-mentees{
+    height:600px;
+  }
+
+  .carousel-mentees{
+    width: 250px;
+    height: 450px;
+  }
+
+  .carousel-item{
+    width: 225px;
+    height: 375px;
+  }
+
+  .img-mentee{
+    height: 150px;
+    width: 150px;
+  }
+  .img-mentee img {
+    height: 140px;
+    width: 140px;
+  }
+
+  .carousel-content{
+    width: 225px;
+  }
+
+  .carousel-content h2{
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  .carousel-content h5{
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+  }
+
+  .carousel-content p {
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+
+  .mentees-links img {
+    height: 25px;
+    margin: 10px;
+  
+  }
+
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .detalhe-laranja-mentee{
+    left: 15px;
+    top: 60px;
+    width: 220px;
+  }
+  
+  .detalhe-circulo-mentee{
+    top: 450px;
+    left: 65vw;
+    width: 110px;
+    z-index: 1;
+  }
+}
